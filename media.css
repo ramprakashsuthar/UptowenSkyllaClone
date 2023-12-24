@@ -1,0 +1,251 @@
+@media only screen and (min-width:200px) and (max-width:557px){
+    .innerSection,.numbersec,.quickInner,.ourIcons,.advantagemidblock,.upperInner,.footerbottom,.locationMap,.reviewBlock,.csp ul,.compliancesInner ul,.overviewInner,.overviewInner .overblockFirst{
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bannerSectionMob{
+        background: rgba(0, 0, 0, 0.5);
+        align-items: start;
+    }
+    .bannerSection nav{
+        display: none;
+    }
+    .menuBarShow{
+        display: block !important;
+    }
+    .bannerSection>nav>ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    .bannerSection>nav>ul>li{
+        padding: 9px 20px;
+    }
+    .bannerSection>nav>ul>li>a{
+        padding: 0;
+    }
+    .bannerSection figure span{
+        font-size: 25px;
+        color: #fff;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+    .bannerBtn a{
+        font-size: 11px;
+    }
+    #banner{
+        margin-bottom: 0;
+    }
+    .bannerleft{
+        display: none;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .bannerinner h5{
+        text-align: center;
+        font-size: 11px;
+    }
+    .bannerHeadings{
+        padding: 30px 0;
+    }
+    .bannerinner>p{
+        font-size: 13px;
+    }
+    .bannerBtn{
+        margin: 35px 0;
+    }
+    .callIcon{
+        justify-content: center;
+    }
+    .callUs a{
+        font-size: 18px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .icon i{
+        font-size: 25px;
+    }
+    .about, .envioInner,.our{
+        background: none;
+        padding: 60px 0 20px  0;
+        margin-bottom: 60px;
+        /* background: position -305px -42px; */
+    }
+    .aboutInner figure{
+        right: 0;
+    }
+    .Offering{
+        gap: 0;
+    }
+    .project{
+        margin: 0;
+    }
+    .envioInner figure{
+        right: 0 !important;
+        margin: 0;
+    }
+    .why,.about, .envioInner{
+        margin: 0;
+    }
+    .envioInner aside{
+        padding: 30px;
+    }
+    .aboutInner{
+        padding: 10px;
+    }
+    .walkContent{
+        padding: 0 0 30px 0;
+        margin-bottom: 20px;
+    }
+    .ourInner>figure{
+        margin: 0 0 20px 0;
+        padding: 15px;
+        right: 0;
+    }
+    .our{
+        background-color: #f7f2ee;
+    }
+    .ourInner{
+        margin-bottom: 0;
+    }
+    .advantageblock{
+        padding: 20px;
+    }
+    .advantageright{
+        gap: 30px;
+    }
+    .advaBtn button{
+        padding: 15px 10px;
+    }
+    .footerinner{
+        padding: 10px;
+    }
+    .upperFooter h2{
+        margin-bottom: 25px;
+    }
+    .footorbottomBlock p{
+        text-align: justify;
+        padding: 0;
+    }
+    .whybannerCon h1{
+        font-size: 40px;
+    }
+    .whybannerCon p span{
+        color: inherit;
+    }
+    .priceListtable table{
+        width: 100%;
+    }
+    .priceListtable table tr td button{
+        font-size: 12px;
+    }
+    .priceListtable table tr td button img{
+        width: 12px;
+        height: 12px;
+    }
+    .loans h2{
+        padding: 40px 10px 0 10px;
+    }
+    .loansInner{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .loansInner figure{
+        width: 170px;
+    }
+    .reviewBlock figure{
+        text-align: center;
+    }
+    .csp ul li{
+        text-align: center;
+    }
+    .csp ul li::before{
+        width: 80%;
+    }
+    .galleryInner{
+        gap: 30px;
+    }
+    .walkVideo iframe{
+        width: 310px;
+        height: 174px;
+    }
+    .compliancesInner ul li:nth-child(2),.compliancesInner ul li:nth-child(3){
+        display: none;
+    }
+ 
+    .landKhasra,.projectTable{
+        overflow-x: scroll;
+    }
+    .contact{
+        padding: 0;
+    }
+    .contactInner{
+        margin: 30px 0;
+    }
+    .contactform form .inputOuter textarea{
+        padding: 5px 14px 6px 14px;
+    }
+    .overviewInner .overblockFirst{
+        border: none;
+    }
+    .bhkenquiryInner form input{
+        width: 100%;
+    }
+    .bhkenquiryInner form select{
+        width: 100%;
+    }
+    .bhkenquiryInner form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #twobhkbanner .whybannerCon{
+        padding: 30px 0;
+    }
+    .bhknavInner nav{
+        width: 100%;
+    }
+    .bhknavInner nav ul{
+        overflow-x: scroll;
+        justify-content: space-between;
+    }
+    .bhknavInner nav{
+        bottom: -110px;
+    }
+    .mfixedFooter {
+        display: block;
+    }
+
+    .mfixedFooter {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 0px 0;
+        background-color: #173e62 ;
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mfixedFooter a {
+        flex-basis: 33%;
+        color: white;
+        padding: 10px 10px;
+        border-right: 2px solid white;
+        font-size: 16px;
+        /* font-weight: 600; */
+    }
+    .mfixedFooter a:last-child{
+        border: none;
+    }
+}
