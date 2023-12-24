@@ -25,6 +25,7 @@
         padding: 0;
     }
     .bannerSection figure span{
+        display: block;
         font-size: 25px;
         color: #fff;
         position: absolute;
